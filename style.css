@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #abbaab; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #abbaab, #ffffff);
+    background: linear-gradient(to right, #abbaab, #ffffff);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotesContainer{
+    background: #FDFC47;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDFC47, #24FE41);
+    background: linear-gradient(to right, #FDFC47, #24FE41);
+    height: 50vh;
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid black;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.nextQuote{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 15px 32px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background: #FF0099;
+background: -webkit-linear-gradient(to right, #FF0099, #493240);
+background: linear-gradient(to right, #FF0099, #493240);
+
+}
+.nextQuote:hover{
+    background: #c10074;
+background: -webkit-linear-gradient(to right, #493240, #FF0099);
+background: linear-gradient(to right, #493240, #FF0099);
+
+}
+
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    color: rgb(44, 44, 44);
+    margin-bottom: 3rem;
+}
+
+h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 1rem;
+}
+
